@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+	<link rel="stylesheet" type="text/css" href='./css/bootstrap.min.css'>
+	<script>
+		//require('./js/jquery-3.2.1.min.js')
+		
+
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" onload="window.$ = window.jQuery = module.exports;"></script>
+  </head>
+  <body>
+<!--<nav class="navbar navbar-light bg-success">
+  <a class="navbar-brand" href="#">
+  
+    <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    Dictionary
+  </a>
+</nav>-->
+
+		  <div class="container-fluid">
+			
+<br><br>
+			<div class="row">
+			  <div class="col-12">
+				<div class="input-group">
+				 <input id="searchInpt" type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+					 <button type="button"  class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  tj-ru
+					</button>
+					<div class="dropdown-menu dropdown-menu-right">
+					  <a class="dropdown-item" href="#">ru-tj</a>
+					  <a class="dropdown-item" href="#">tj-ru</a>
+					</div>
+				  <span class="input-group-btn">
+					<button id="searchBtn" class="btn btn-secondary" type="button">Search</button>
+				  </span>
+				 
+				</div>
+			  </div>
+			  </div>
+
+			  <div id="searched" class="list-group active">
+			  
+			  </div>
+		  </div>
+
+		  <script src ="./js/tjru.js"></script>
+    <script>
+	 //require('./js/tjru.js')
+      require('./js/renderer.js')
+    </script>
+  </body>
+</html>

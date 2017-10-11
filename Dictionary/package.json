@@ -1,0 +1,23 @@
+{
+  "name": "dictionary",
+  "version": "1.0.0",
+  "description": "description_of thisf",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dobuild": "electron-packager . --platform=win32 --arch=ia32",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dictionary"
+  ],
+  "author": "chalex",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.7.8",
+    "electron-packager": "^9.1.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
